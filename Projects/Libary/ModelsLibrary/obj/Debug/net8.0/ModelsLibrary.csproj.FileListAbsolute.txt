@@ -1,0 +1,11 @@
+/Users/jonathan_interlandi/Desktop/practiceProjects/MobileCartApp/Projects/Libary/ModelsLibrary/bin/Debug/net8.0/ModelsLibrary.deps.json
+/Users/jonathan_interlandi/Desktop/practiceProjects/MobileCartApp/Projects/Libary/ModelsLibrary/bin/Debug/net8.0/ModelsLibrary.dll
+/Users/jonathan_interlandi/Desktop/practiceProjects/MobileCartApp/Projects/Libary/ModelsLibrary/bin/Debug/net8.0/ModelsLibrary.pdb
+/Users/jonathan_interlandi/Desktop/practiceProjects/MobileCartApp/Projects/Libary/ModelsLibrary/obj/Debug/net8.0/ModelsLibrary.GeneratedMSBuildEditorConfig.editorconfig
+/Users/jonathan_interlandi/Desktop/practiceProjects/MobileCartApp/Projects/Libary/ModelsLibrary/obj/Debug/net8.0/ModelsLibrary.AssemblyInfoInputs.cache
+/Users/jonathan_interlandi/Desktop/practiceProjects/MobileCartApp/Projects/Libary/ModelsLibrary/obj/Debug/net8.0/ModelsLibrary.AssemblyInfo.cs
+/Users/jonathan_interlandi/Desktop/practiceProjects/MobileCartApp/Projects/Libary/ModelsLibrary/obj/Debug/net8.0/ModelsLibrary.csproj.CoreCompileInputs.cache
+/Users/jonathan_interlandi/Desktop/practiceProjects/MobileCartApp/Projects/Libary/ModelsLibrary/obj/Debug/net8.0/ModelsLibrary.dll
+/Users/jonathan_interlandi/Desktop/practiceProjects/MobileCartApp/Projects/Libary/ModelsLibrary/obj/Debug/net8.0/refint/ModelsLibrary.dll
+/Users/jonathan_interlandi/Desktop/practiceProjects/MobileCartApp/Projects/Libary/ModelsLibrary/obj/Debug/net8.0/ModelsLibrary.pdb
+/Users/jonathan_interlandi/Desktop/practiceProjects/MobileCartApp/Projects/Libary/ModelsLibrary/obj/Debug/net8.0/ref/ModelsLibrary.dll

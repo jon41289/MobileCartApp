@@ -1,0 +1,65 @@
+﻿@page "/cocktail/add"
+@using MobileCart.Services
+@using ModelsLibrary;
+
+<PageTitle>Create Cocktail</PageTitle>
+
+<h3>Add Cocktail</h3>
+
+<EditForm Model="@newCocktail" OnSubmit="handleSubmit" FormName="CreateCocktailForm">
+    <DataAnnotationsValidator></DataAnnotationsValidator>
+    <ValidationSummary></ValidationSummary>
+    <div class="mb-3">
+      <label for="Name" class="form-label">Name</label>
+      <InputText class="form-control" id="Name" @bind-Value="@newCocktail.Name" required/>
+    </div>
+
+    <div class="mb-3">
+      <label for="Rating" class="form-label">Rating</label>
+      @* <InputNumber class="form-control" id="Rating" min="1" max="5" @bind-Value="@newCocktail.Rating" required/> *@
+      <input type="range" class="form-range" min="1" max="5" @bind="@newCocktail.Rating" >
+    </div>
+
+    <div class="mb-3">
+      <label for="MainSpirts" class="form-label">MainSpirts</label>
+      <InputText class="form-control" id="MainSpirts" @bind-Value="@newCocktail.MainSpirt" required/>
+    </div>
+
+    <div class="mb-3">
+      <label for="Flavor" class="form-label">Flavor</label>
+      <InputText class="form-control" id="Flavor" @bind-Value="@newCocktail.Flavor" required/>
+    </div>
+
+     <div class="mb-3">
+      <label for="SkillLevel" class="form-label">SkillLevel</label>
+      @* <InputNumber class="form-control" id="SkillLevel" min="1" max="5" @bind-Value="@newCocktail.SkillLevel" required/> *@
+      <input type="range" class="form-range" min="1" max="3" @bind="@newCocktail.SkillLevel" >
+    </div>
+
+    <div class="mb-3">
+      <label for="Description" class="form-label">Description</label>
+      <InputTextArea class="form-control" id="Description" @bind-Value="@newCocktail.Discription" required/>
+    </div>
+
+    <div class="mb-3">
+      <label for="Ingredients" class="form-label">Ingredients</label>
+      <InputTextArea class="form-control" id="Ingredients" @bind-Value="@newCocktail.Ingredients" required/>
+    </div>
+
+     <div class="mb-3">
+      <label for="Instructions" class="form-label">Instructions</label>
+      <InputTextArea class="form-control" id="Instructions" @bind-Value="@newCocktail.Instructions" required/>
+    </div>
+
+    <button type="submit" class="btn btn-primary btn-fully">Submit</button>
+
+</EditForm>
+
+@code {
+  ModelsLibrary.Cocktails newCocktail = new ModelsLibrary.Cocktails();
+
+  async Task handleSubmit()
+  {
+    
+  }
+}

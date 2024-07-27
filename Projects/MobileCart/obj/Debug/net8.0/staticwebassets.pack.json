@@ -1,0 +1,41 @@
+{
+  "Files": [
+    {
+      "Id": "/Users/jonathan_interlandi/Desktop/practiceProjects/MobileCartApp/Projects/MobileCart/obj/Debug/net8.0/scopedcss/projectbundle/MobileCart.bundle.scp.css",
+      "PackagePath": "staticwebassets/MobileCart.bundle.scp.css"
+    },
+    {
+      "Id": "/Users/jonathan_interlandi/Desktop/practiceProjects/MobileCartApp/Projects/MobileCart/wwwroot/app.css",
+      "PackagePath": "staticwebassets/app.css"
+    },
+    {
+      "Id": "/Users/jonathan_interlandi/Desktop/practiceProjects/MobileCartApp/Projects/MobileCart/wwwroot/bootstrap/bootstrap.min.css",
+      "PackagePath": "staticwebassets/bootstrap/bootstrap.min.css"
+    },
+    {
+      "Id": "/Users/jonathan_interlandi/Desktop/practiceProjects/MobileCartApp/Projects/MobileCart/wwwroot/bootstrap/bootstrap.min.css.map",
+      "PackagePath": "staticwebassets/bootstrap/bootstrap.min.css.map"
+    },
+    {
+      "Id": "/Users/jonathan_interlandi/Desktop/practiceProjects/MobileCartApp/Projects/MobileCart/wwwroot/favicon.png",
+      "PackagePath": "staticwebassets/favicon.png"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.MobileCart.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.build.MobileCart.props",
+      "PackagePath": "build\\MobileCart.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildMultiTargeting.MobileCart.props",
+      "PackagePath": "buildMultiTargeting\\MobileCart.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildTransitive.MobileCart.props",
+      "PackagePath": "buildTransitive\\MobileCart.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

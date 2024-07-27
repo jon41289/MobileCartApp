@@ -1,0 +1,6 @@
+@MobileCartAPI_HostAddress = http://localhost:5094
+
+GET {{MobileCartAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

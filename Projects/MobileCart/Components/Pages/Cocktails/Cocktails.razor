@@ -1,0 +1,40 @@
+@page "/Cocktails"
+@using MobileCart.Services
+@inject ICocktailService CocktailService
+@inject NavigationManager NavigationManager
+@rendermode InteractiveServer
+<PageTitle>Cocktails</PageTitle>
+
+<div class="container">
+    <div class="row">
+      <div class="col"><h3>Cocktails</h3></div>
+      <div class="col align-self-end">
+       <NavLink href="/Cocktail">Add Cocktail</NavLink>
+       </div>  
+    </div>
+    
+</div>
+
+@foreach(var item in CocktailService.MyCocktails){
+  <div class="card" style="width: 18rem;">
+    <div class="card-body">
+      <h5 class="card-title">@item.Name</h5>
+      <hr>
+      <div class="row mb-2"><div class="col col-auto"> Spirt :</div> <div class="col">@item.MainSpirt</div></div>
+      <div class="row mb-2"><div class="col col-auto">Skill Level:</div><div class=col>@item.SkillLevel</div></div>
+      <NavLink class="btn btn-primary" href=@($"/Cocktail/{@item.Id}")>See Recipe</NavLink>
+      <NavLink class="btn btn-primary" href=@($"/Cocktail/{@item.Id}")>Edit </NavLink>
+
+    </div>
+  </div>
+}
+
+@code {
+
+  protected override async Task OnInitializedAsync()
+  {
+    await CocktailService.GetCocktails();
+  }
+  
+}
+
